@@ -13,8 +13,8 @@ public class MainAdapter extends RecyclerView.Adapter<MainViewHolder> {
 
     ArrayList<String> data;
 
-    public MainAdapter(){
-        data= new ArrayList<>();
+    public MainAdapter() {
+        data = new ArrayList<>();
         data.add("fff");
         data.add("fff");
         data.add("fff");

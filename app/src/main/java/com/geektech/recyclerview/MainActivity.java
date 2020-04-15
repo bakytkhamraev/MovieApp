@@ -11,19 +11,16 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        recyclerView=findViewById(R.id.recyclerView);
+        recyclerView = findViewById(R.id.recyclerView);
 
-
-        LinearLayoutManager layoutManager=new LinearLayoutManager(this);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        MainAdapter adapter= new MainAdapter();
+        MainAdapter adapter = new MainAdapter();
         recyclerView.setAdapter(adapter);
-
     }
 }
